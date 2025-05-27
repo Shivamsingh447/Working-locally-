@@ -1,0 +1,300 @@
+[
+  {
+    "distributor_name": "mahesh",
+    "town": "noida",
+    "super_stockist": "eclairs",
+    "state": "haryana",
+    "entered_by": "shivam",
+    "mobile": "9582118312",
+    "items": [
+      {
+        "item_name": "Biscuits",
+        "opening_stock": 45,
+        "purchase": 45,
+        "sale": 30,
+        "closing_stock": 60
+      },
+      {
+        "item_name": "Confectionery",
+        "opening_stock": 45,
+        "purchase": 20,
+        "sale": 45,
+        "closing_stock": 20
+      },
+      {
+        "item_name": "Juice",
+        "opening_stock": 20,
+        "purchase": 45,
+        "sale": 60,
+        "closing_stock": 5
+      }
+    ],
+    "submitted_at": "2025-05-26T06:34:13.498Z"
+  },
+  {
+    "distributor_name": "Akshay",
+    "town": "noida",
+    "super_stockist": "eclairs",
+    "state": "haryana",
+    "entered_by": "shivam",
+    "mobile": "9582118312",
+    "items": [
+      {
+        "item_name": "Biscuits",
+        "opening_stock": 45,
+        "purchase": 45,
+        "sale": 50,
+        "closing_stock": 40
+      }
+    ],
+    "submitted_at": "2025-05-26T07:55:57.024Z"
+  },
+  {
+    "distributor_name": "Sonali Rawat",
+    "town": "noida",
+    "super_stockist": "eclairs",
+    "state": "haryana",
+    "entered_by": "shivam",
+    "mobile": "9582118312",
+    "items": [
+      {
+        "item_name": "Biscuits",
+        "opening_stock": 50,
+        "purchase": 50,
+        "sale": 30,
+        "closing_stock": 70
+      },
+      {
+        "item_name": "Confectionery",
+        "opening_stock": 45,
+        "purchase": 45,
+        "sale": 50,
+        "closing_stock": 40
+      },
+      {
+        "item_name": "Juice",
+        "opening_stock": 30,
+        "purchase": 30,
+        "sale": 50,
+        "closing_stock": 10
+      }
+    ],
+    "submitted_at": "2025-05-26T07:57:10.688Z"
+  },
+  {
+    "distributor_name": "sonali singh",
+    "town": "noida",
+    "super_stockist": "eclairs",
+    "state": "haryana",
+    "entered_by": "shivam",
+    "mobile": "9582118312",
+    "items": [
+      {
+        "item_name": "Biscuits",
+        "opening_stock": 50,
+        "purchase": 15,
+        "sale": 30,
+        "closing_stock": 35
+      }
+    ],
+    "submitted_at": "2025-05-26T08:01:06.619Z"
+  },
+  {
+    "distributor_name": "Utkarsh",
+    "town": "noida",
+    "super_stockist": "eclairs",
+    "state": "haryana",
+    "entered_by": "shivam",
+    "mobile": "9582118312",
+    "items": [
+      {
+        "item_name": "Biscuits",
+        "opening_stock": 120,
+        "purchase": 100,
+        "sale": 200,
+        "closing_stock": 20
+      }
+    ],
+    "submitted_at": "2025-05-26T08:03:14.026Z"
+  },
+  {
+    "distributor_name": "Neha",
+    "town": "Faridabad",
+    "super_stockist": "",
+    "state": "haryana",
+    "entered_by": "",
+    "mobile": "09582118312",
+    "items": [
+      {
+        "item_name": "Biscuits",
+        "opening_stock": 30,
+        "purchase": 45,
+        "sale": 50,
+        "closing_stock": 25
+      }
+    ],
+    "submitted_at": "2025-05-26T08:04:04.344Z"
+  },
+  {
+    "distributor_name": "Neha SINGH",
+    "town": "Faridabad",
+    "super_stockist": "",
+    "state": "haryana",
+    "entered_by": "",
+    "mobile": "09582118312",
+    "items": [
+      {
+        "item_name": "Biscuits",
+        "opening_stock": 50,
+        "purchase": 50,
+        "sale": 15,
+        "closing_stock": 85
+      }
+    ],
+    "submitted_at": "2025-05-26T08:04:38.357Z"
+  },
+  {
+    "distributor_name": "Joshi",
+    "town": "Faridabad",
+    "super_stockist": "",
+    "state": "haryana",
+    "entered_by": "",
+    "mobile": "09582118312",
+    "items": [
+      {
+        "item_name": "Biscuits",
+        "opening_stock": 50,
+        "purchase": 50,
+        "sale": 12,
+        "closing_stock": 88
+      }
+    ],
+    "submitted_at": "2025-05-26T08:08:11.140Z"
+  },
+  {
+    "distributor_name": "Joshi sinha",
+    "town": "Faridabad",
+    "super_stockist": "",
+    "state": "haryana",
+    "entered_by": "",
+    "mobile": "09582118312",
+    "items": [
+      {
+        "item_name": "Biscuits",
+        "opening_stock": 12,
+        "purchase": 12,
+        "sale": 10,
+        "closing_stock": 14
+      }
+    ],
+    "submitted_at": "2025-05-26T08:09:03.867Z"
+  },
+  {
+    "distributor_name": "Joshi sinha",
+    "town": "Faridabad",
+    "super_stockist": "",
+    "state": "haryana",
+    "entered_by": "",
+    "mobile": "09582118312",
+    "items": [
+      {
+        "item_name": "Biscuits",
+        "opening_stock": 45,
+        "purchase": 45,
+        "sale": 454,
+        "closing_stock": -364
+      }
+    ],
+    "submitted_at": "2025-05-26T08:29:49.358Z"
+  },
+  {
+    "distributor_name": "khush ",
+    "town": "noida",
+    "super_stockist": "",
+    "state": "Uttar pradesh",
+    "entered_by": "",
+    "mobile": "788998543",
+    "items": [
+      {
+        "item_name": "Biscuits",
+        "opening_stock": 45,
+        "purchase": 15,
+        "sale": 30,
+        "closing_stock": 30
+      }
+    ],
+    "submitted_at": "2025-05-26T08:32:05.255Z"
+  },
+  {
+    "distributor_name": "khush singh",
+    "town": "noida",
+    "super_stockist": "",
+    "state": "Uttar pradesh",
+    "entered_by": "Mahesh Joshi",
+    "mobile": "09582118312",
+    "items": [
+      {
+        "item_name": "Biscuits",
+        "opening_stock": 50,
+        "purchase": 25,
+        "sale": 30,
+        "closing_stock": 45
+      }
+    ],
+    "submitted_at": "2025-05-26T08:42:07.489Z"
+  },
+  {
+    "distributor_name": "hoho",
+    "town": "noida",
+    "super_stockist": "",
+    "state": "Uttar pradesh",
+    "entered_by": "Mahesh Joshi",
+    "mobile": "09582118312",
+    "items": [
+      {
+        "item_name": "Biscuits",
+        "opening_stock": 15,
+        "purchase": 15,
+        "sale": 15,
+        "closing_stock": 15
+      }
+    ],
+    "submitted_at": "2025-05-26T08:44:40.989Z"
+  },
+  {
+    "distributor_name": "hoho",
+    "town": "noida",
+    "super_stockist": "",
+    "state": "Uttar pradesh",
+    "entered_by": "Mahesh Joshi",
+    "mobile": "09582118312",
+    "items": [
+      {
+        "item_name": "Biscuits",
+        "opening_stock": 23,
+        "purchase": 45,
+        "sale": 10,
+        "closing_stock": 58
+      }
+    ],
+    "submitted_at": "2025-05-26T08:49:16.519Z"
+  },
+  {
+    "distributor_name": "GOJO",
+    "town": "dfgh",
+    "super_stockist": "eclairs",
+    "state": "Uttar pradesh",
+    "entered_by": "Mahesh Joshi",
+    "mobile": "09582118312",
+    "items": [
+      {
+        "item_name": "Biscuits",
+        "opening_stock": 50,
+        "purchase": 50,
+        "sale": 5,
+        "closing_stock": 95
+      }
+    ],
+    "submitted_at": "2025-05-26T11:30:35.001Z"
+  }
+]

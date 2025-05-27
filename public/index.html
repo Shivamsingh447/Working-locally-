@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Distributor Inventory System</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard">
+    <div class="sidebar">
+      <h2>Inventory System</h2>
+      <ul>
+        <li class="active"><i class="fas fa-clipboard-list"></i> New Entry</li>
+        <li><i class="fas fa-history"></i> View Records</li>
+        <li><i class="fas fa-cog"></i> Settings</li>
+      </ul>
+    </div>
+    
+    <div class="main-content">
+      <div class="header">
+        <h1>Distributor Inventory Entry</h1>
+        <div class="user-profile">
+          <span>Admin</span>
+          <i class="fas fa-user-circle"></i>
+        </div>
+      </div>
+      
+      <div class="form-container" id="entryForm">
+        <form id="inventoryForm">
+          <div class="form-section">
+            <h2><i class="fas fa-user-tie"></i> Distributor Details</h2>
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="distributor_name">Distributor Name*</label>
+                <input type="text" id="distributor_name" name="distributor_name" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="town">Town*</label>
+                <input type="text" id="town" name="town" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="super_stockist">Super Stockist</label>
+                <input type="text" id="super_stockist" name="super_stockist">
+              </div>
+              
+              <div class="form-group">
+                <label for="state">State*</label>
+                <input type="text" id="state" name="state" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="entered_by">Entered By</label>
+                <input type="text" id="entered_by" name="entered_by">
+              </div>
+              
+              <div class="form-group">
+                <label for="mobile">Mobile No.*</label>
+                <input type="tel" id="mobile" name="mobile" required>
+              </div>
+            </div>
+          </div>
+          
+          <div class="form-section">
+            <div class="section-header">
+              <h2><i class="fas fa-boxes"></i> Inventory Details</h2>
+              <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search items..." id="productSearch">
+              </div>
+            </div>
+            
+            <div class="table-container">
+              <table id="inventoryTable">
+                <thead>
+                  <tr>
+                    <th>Item Name</th>
+                    <th>Opening</th>
+                    <th>Purchase</th>
+                    <th>Sale</th>
+                    <th>Closing</th>
+                  </tr>
+                </thead>
+                <tbody id="inventoryItems">
+                  <!-- Products will be loaded here by JavaScript -->
+                </tbody>
+              </table>
+              
+              <div class="table-footer">
+                <div class="pagination-controls">
+                  <button id="prevPage"><i class="fas fa-chevron-left"></i></button>
+                  <span id="pageInfo">Page 1 of 6</span>
+                  <button id="nextPage"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <span id="itemCount">Showing 1-10 of 60 items</span>
+              </div>
+            </div>
+          </div>
+          
+          <button type="submit" class="submit-btn">
+            <i class="fas fa-paper-plane"></i> Submit Data
+          </button>
+        </form>
+      </div>
+      
+      <!-- View Records Section -->
+      <div class="records-container" id="viewRecords">
+        <div class="records-header">
+          <h2><i class="fas fa-history"></i> Inventory Records</h2>
+          <div class="records-filters">
+            <div class="filter-group">
+              <label for="dateFrom">From:</label>
+              <input type="date" id="dateFrom">
+            </div>
+            <div class="filter-group">
+              <label for="dateTo">To:</label>
+              <input type="date" id="dateTo">
+            </div>
+            <div class="filter-group">
+              <label for="distributorFilter">Distributor:</label>
+              <select id="distributorFilter">
+                <option value="">All Distributors</option>
+                <!-- Will be populated by JavaScript -->
+              </select>
+            </div>
+            <button id="applyFilters" class="filter-btn">
+              <i class="fas fa-filter"></i> Apply
+            </button>
+          </div>
+        </div>
+        
+        <div class="records-summary">
+          <div class="summary-card">
+            <i class="fas fa-box-open"></i>
+            <div>
+              <h3>Total Items</h3>
+              <span id="totalItems">0</span>
+            </div>
+          </div>
+          <div class="summary-card">
+            <i class="fas fa-arrow-up"></i>
+            <div>
+              <h3>Total Purchases</h3>
+              <span id="totalPurchases">0</span>
+            </div>
+          </div>
+          <div class="summary-card">
+            <i class="fas fa-arrow-down"></i>
+            <div>
+              <h3>Total Sales</h3>
+              <span id="totalSales">0</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="records-table-container">
+          <table id="recordsTable">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Distributor</th>
+                <th>Town</th>
+                <th>Item</th>
+                <th>Opening</th>
+                <th>Purchase</th>
+                <th>Sale</th>
+                <th>Closing</th>
+              </tr>
+            </thead>
+            <tbody id="recordsData">
+              <!-- Records will be loaded here by JavaScript -->
+            </tbody>
+          </table>
+          
+          <div class="records-pagination">
+            <button id="prevRecords"><i class="fas fa-chevron-left"></i></button>
+            <span id="recordsPageInfo">Page 1</span>
+            <button id="nextRecords"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
